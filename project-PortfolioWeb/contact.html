@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh_Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Steven Ke" />
+    <meta
+      name="description"
+      content="這是 Steven Ke 的個人網站。 Steven ke 是來自台灣的網頁開發人員"
+    />
+    <meta name="robot" content="index, follow" />
+    <title>聯絡方式 | Steven Ke 網頁前端工程師</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <!-- header and navibar -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">首頁</a></li>
+          <li><a href="./resume.html">我的履歷</a></li>
+          <li><a class="active" href="#">聯絡方式</a></li>
+          <li>
+            <a href="./project-台灣經濟發展史/index.html"
+              >台灣經濟發展 Project</a
+            >
+          </li>
+          <li>
+            <a href="./project-夏威夷租借網站/index.html"
+              >夏威夷租借服務 Project</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="contact_left">
+        <form>
+          <div>
+            <label for="name">姓名</label>
+            <input type="text" name="name" />
+          </div>
+          <div>
+            <label for="email">郵件</label>
+            <input type="email" name="email" />
+          </div>
+          <div>
+            <label for="tel">電話</label>
+            <input type="text" name="tel" />
+          </div>
+          <div>
+            <label for="need">你的需求</label>
+            <textarea
+              name="need"
+              rows="3"
+              placeholder="請輸入您的需求..."
+            ></textarea>
+          </div>
+          <button type="submit">提交</button>
+        </form>
+      </section>
+      <div class="line"></div>
+      <section class="contact_right">
+        <div class="content">
+          <h2>我的電話：0938-876-892</h2>
+          <h2>我的E-mail：spp72kimo@gmail.com</h2>
+          <h2>方便聯絡時間：10:30 ~ 21:30</h2>
+          <h2>其他聯絡方式：IG、FB</h2>
+        </div>
+      </section>
+    </main>
+    <!-- footer and picLink -->
+    <footer>
+      <nav>
+        <div class="picLink">
+          <a href="#"><img src="./ICONS/facebook.svg" alt="faceook" /></a>
+          <a href="#"
+            ><img src="./ICONS/github-brands 1.svg" alt="faceook"
+          /></a>
+          <a href="#"><img src="./ICONS/instagram.svg" alt="faceook" /></a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
